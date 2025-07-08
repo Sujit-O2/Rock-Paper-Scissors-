@@ -1,18 +1,25 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+---
 
-## Folder Structure
+### ✊ Rock Paper Scissors
 
-The workspace contains two folders by default, where:
+```markdown
+# ✊ Rock Paper Scissors (Java - Player vs Computer)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+A Java console game simulating the classic hand game between the **player and a randomized computer** opponent.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 🎯 Features
+- Player vs computer decision logic
+- Random class used for computer's move
+- Win/lose/draw message feedback
+- Replay support
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 🧠 Concepts Used
+- Java conditionals & switch-case
+- Random number generation
+- String comparison and scoring
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 🔧 How to Run
+```bash
+javac RockPaperScissors.java
+java RockPaperScissors
